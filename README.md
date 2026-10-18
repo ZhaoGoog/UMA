@@ -12,5 +12,5 @@ The datasets can be obtained from the following sources. **Due to their size and
 - **ETT-small:** [ETDataset](https://github.com/zhouhaoyi/ETDataset)
 - **Weather:** [Jena Weather Data](https://weather.bgc-jena.mpg.de/weather_data.html)
 - **UEA Time Series Classification Archive:** [Official Website](https://www.timeseriesclassification.com/)
-
-**Note:** Access to the SWaT dataset requires following the access procedures and usage terms specified by iTrust. The Flight dataset source and download instructions will be provided separately once verified.
+- **Flight: Available in this repository
+**Note:** Access to the SWaT dataset requires following the access procedures and usage terms specified by iTrust. 
