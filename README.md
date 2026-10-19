@@ -1,17 +1,41 @@
-## Prepare Data
+# Dataset Documentation
 
-We evaluate our method on public benchmark datasets across four time series analysis tasks: **forecasting, imputation, anomaly detection, and classification**.
+## 1.   Overview
 
-To facilitate reproducibility, we provide some datasets directly in the `./dataset` directory, including the forecasting datasets and a subset of the anomaly detection datasets. The remaining datasets can be obtained from the following sources. Please download the required datasets and organize them according to the directory structure and preprocessing format expected by our implementation.
+This repository provides a collection of benchmark datasets for multivariate time series analysis across four tasks:
 
-- **MSL and SMAP:** [Telemanom](https://github.com/khundman/telemanom)
-- **PSM:** [RANSynCoders](https://github.com/eBay/RANSynCoders/tree/main/data)
-- **SMD:** [OmniAnomaly](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset)
-- **SWaT:** [iTrust Dataset Portal](https://itrust.sutd.edu.sg/itrust-labs_datasets/)
-- **Electricity, Exchange Rate, and Solar:** [Multivariate Time Series Datasets](https://github.com/laiguokun/multivariate-time-series-data)
-- **ETT-small:** [ETDataset](https://github.com/zhouhaoyi/ETDataset)
-- **Weather:** [Jena Weather Data](https://weather.bgc-jena.mpg.de/weather_data.html)
-- **UEA Time Series Classification Archive:** [Official Website](https://www.timeseriesclassification.com/)
-- **Flight:** Provided in the `./dataset` directory of this repository.
+- Time series forecasting
+- Time series imputation
+- Time series anomaly detection
+- Time series classification
 
-**Note:** Access to the SWaT dataset is subject to the access procedures and usage terms specified by iTrust. Please obtain and use this dataset in accordance with its requirements.
+## 2.   Dataset Sources
+
+The collection includes datasets from established public benchmarks.   Please refer to the original sources for dataset descriptions, download instructions, and usage conditions.
+
+| Dataset | Original Source |
+|---|---|
+| MSL and SMAP | https://github.com/khundman/telemanom |
+| PSM | https://github.com/eBay/RANSynCoders/tree/main/data |
+| SMD | https://github.com/NetManAIOps/OmniAnomaly |
+| SWaT | https://itrust.sutd.edu.sg/itrust-labs_datasets/ |
+| Electricity, Exchange Rate, Solar | https://github.com/laiguokun/multivariate-time-series-data |
+| ETT-small | https://github.com/zhouhaoyi/ETDataset |
+| Weather | https://weather.bgc-jena.mpg.de/weather_data.html |
+| UEA Time Series Classification Archive | https://www.timeseriesclassification.com/ |
+
+The Flight dataset is provided in the associated project repository, subject to its applicable distribution terms.
+
+## 3.   Directory Structure
+
+The datasets are organized under the `.  /dataset` directory.   The exact file names and directory structure depend on the datasets included in the release.
+
+## 4.   Data Preparation
+
+Please follow the preprocessing procedures and file-format requirements of the corresponding experimental implementation.   Some datasets may require additional preprocessing before use.
+
+## 5.   Usage and Attribution
+
+Please consult the original dataset sources for licensing, access restrictions, and citation requirements.   Cite the original datasets and relevant publications when using them in research.
+
+Access to restricted datasets, including SWaT, is subject to the original provider's requirements.
